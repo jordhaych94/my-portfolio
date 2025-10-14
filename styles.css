@@ -1,0 +1,100 @@
+body {
+  background: #111827;
+  font-family: 'Inter', sans-serif;
+  color: #d1d5db;
+  margin: 0;
+}
+
+h1 {
+  color: #2dd4bf;
+}
+
+h2 {
+  color: #2dd4bf;
+}
+
+span {
+  background: #374151;
+  color: #2dd4bf;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 8px 16px;
+  margin: 4px;
+}
+
+span {
+  background: #374151;
+  padding: 8px 16px;
+  margin: 4px;
+}
+
+#dog {
+  margin: 0 auto 20px;
+  width: 200px;
+  border-radius: 100px;
+  position: top;
+}
+
+.navBar {
+  color: #2dd4bf;
+  margin: 20px;
+  font-weight: bold;
+}
+
+header {
+  text-align: center;
+  background: #1f2937;
+  margin-top: 20px;
+  padding: 35px 0 15px
+}
+
+section {
+  border-radius: 10px;
+  margin: 30px auto;
+  padding: 1% 2%;
+  background: #1f2937;
+  max-width: 960px;
+}
+
+.Skills {
+  margin-bottom: 10px;
+}
+
+
+#textbox {
+  text-align: left, center;
+  min-height: 209px;
+  max-height: 209px;
+  min-width: 941px;
+  max-width: 941px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+#submit {
+  display: block;
+  margin: 10px auto 10px;
+  background: #2dd4bf;
+  color: #1f2937;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.mailMe {
+  color: #2dd4bf;
+}
+
+footer {
+  text-align: center;
+  color: #888;
+  border: solid 0.1px;
+  padding-inline: 0 50% 0 50%;
+}
+#projects {
+  border-radius: 10px; 
+}
