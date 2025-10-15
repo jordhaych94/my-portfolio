@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(40, 43, 43);
+  background-color: rgb(141, 141, 141);
   align-items: center;
   display: flex;
   justify-content: center;
@@ -13,6 +13,10 @@ body {
   background-color: white;
   padding: 20px;
   border-radius: 15px;
+  background-image: url(calculatorBackground.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 20px 20px 50px 10px #000000;
 }
 
 .buttons {
@@ -80,5 +84,5 @@ body {
 p {
   text-align: center;
   font-size: x-small;
-  color: #333;
+  color: white;
 }
