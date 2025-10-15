@@ -13,19 +13,13 @@ h2 {
   color: #2dd4bf;
 }
 
-span {
+.skills span {
   background: #374151;
   color: #2dd4bf;
   border-radius: 20px;
   font-size: 16px;
   padding: 8px 16px;
-  margin: 4px;
-}
-
-span {
-  background: #374151;
-  padding: 8px 16px;
-  margin: 4px;
+  display: inline-block;
 }
 
 #dog {
@@ -58,15 +52,13 @@ section {
 
 #textbox {
   text-align: left, center;
-  min-height: 209px;
-  max-height: 209px;
-  min-width: 98%;
-  max-width: 50%;
+  height: 200px;
+  width: 100%;
+  box-sizing: border-box;
   margin-bottom: 10px;
   margin-top: 5px;
   padding: 8px;
   border-radius: 5px;
-  
 }
 
 #submit {
@@ -88,18 +80,68 @@ section {
 footer {
   text-align: center;
   color: #888;
-  border: solid 0.1px;
-  padding-inline: 0 50% 0 50%;
-}
-#projects {
-  border-radius: 10px; 
-  
+  padding: 10px 0;
 }
 
 .skills {
-  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 0;
 }
 
 a {
   color: #2dd4bf;
+}
+
+a:focus-visible, button:focus-visible, textarea:focus-visible {
+  outline: 3px solid #2dd4bf;
+  outline-offset: 3px;
+}
+
+.project-preview {
+  height: 80px;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
+li {
+  list-style-type: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+figure {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 0;
+}
+
+/* --- Responsive Styles for Mobile --- */
+@media (max-width: 600px) {
+  header {
+    padding-top: 20px;
+  }
+
+  #dog {
+    width: 150px;
+    border-radius: 75px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navBar {
+    margin: 5px 0;
+  }
+
+  figure {
+    flex-direction: column;
+    text-align: center;
+  }
 }

@@ -1,0 +1,100 @@
+.container {
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  width: 400px;
+  min-height: 350px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  color: #2b98e0;
+  font-weight: bold;
+  font-size: large;
+}
+
+body {
+  background-color: #e0e8f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#textInput {
+  border: solid 2px;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: left;
+  width: 60%;
+  margin-right: 15px;
+  border-color: #2b98e0;
+  font-weight: bold;
+}
+
+#addTaskButton {
+  background-color: #2b98e0;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+#taskList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  border: dotted 2px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-color: #80560828;
+  font-weight: normal;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgba(0, 0, 0, 0.842);
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #a0a0a0;
+}
+
+.remove-btn {
+  background-color: #c42020;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  float: right; /* Keep float right for now, but consider flexbox for better layout control */
+  margin-top: -5px;
+}
+
+button:focus-visible, input:focus-visible {
+  outline: 1px solid #2b98e0;
+}
+
+/* Visually hide an element, but keep it available to screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.checkbox {
+  float: left;
+  border-radius: 3px; /* Slightly rounded corners for checkboxes */
+  width: 18px;
+  height: 18px;
+}
