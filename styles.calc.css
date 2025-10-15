@@ -4,6 +4,8 @@ body {
   display: flex;
   justify-content: center;
   height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  color: white;
 
 }
 
@@ -30,6 +32,9 @@ body {
   padding: 10px;
   border: none;
   color: #333;
+  font-size: large;
+  font-weight: bold;
+  outline: none;
 }
 
 .button {
@@ -40,6 +45,7 @@ body {
   cursor: pointer;
   padding: 20px;
   font-size: large;
+  font-weight: bold; 
 }
 
 .button.operator {
@@ -47,6 +53,10 @@ body {
   border-radius: 10px;
   border: none;
   cursor: pointer;
+  font-weight: bold;
+  color: white;
+  font-size: large;
+  padding: 20px;
 }
 
 .button.equal {
@@ -61,9 +71,14 @@ body {
   border-radius: 10px;
   border: none;
   cursor: pointer;
+  color: white;
+  font-size: large;
+  padding: 20px;
+  font-weight: bold;
 }
 
 p {
   text-align: center;
   font-size: x-small;
+  color: #333;
 }
